@@ -13,7 +13,7 @@ sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 
 apt-get update && apt-get install -y google-chrome-unstable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst ttf-freefont --no-install-recommends
 
-git clone https://github.com/sahava/web-scraper-gcp.git
+git clone https://github.com/canozcer/urlscraper.git
 
 cd web-scraper-gcp
 sudo npm install
