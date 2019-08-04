@@ -1,0 +1,20 @@
+{
+  "domain": "ayakkabidunyasi.com.tr",
+  "startUrl": "https://www.ayakkabidunyasi.com.tr/",
+  "projectId": "inbound-url-scraper",
+  "bigQuery": {
+    "datasetId": "web_scraper_gcp",
+    "tableId": "crawl_results_ad_detail"
+  },
+  "redis": {
+    "active": false,
+    "host": "10.0.0.3",
+    "port": 6379
+  },
+  "puppeteerArgs": ["--no-sandbox"],
+  "crawlerOptions": {
+    "maxConcurrency": 10,
+    "skipRequestedRedirect": true,
+    "obeyRobotsTxt": false
+  }
+}

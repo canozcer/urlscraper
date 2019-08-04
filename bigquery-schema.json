@@ -1,0 +1,82 @@
+[
+  {
+    "description": "The URL initially requested for crawling.",
+    "name": "requested_url",
+    "type": "STRING"
+  },
+  {
+    "description": "The actual URL that was crawled (e.g. due to redirect).",
+    "name": "final_url",
+    "type": "STRING"
+  },
+  {
+    "description": "The HTTP status code.",
+    "name": "http_status",
+    "type": "INT64"
+  },
+  {
+    "description": "The Content-Type header of the response.",
+    "name": "content_type",
+    "type": "STRING"
+  },
+  {
+    "description": "If the URL was external to the crawled domain.",
+    "name": "external",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "The URL of the page which linked to the crawled URL.",
+    "name": "previous_url",
+    "type": "STRING"
+  },
+  {
+    "description": "Document title.",
+    "name": "document_title",
+    "type": "STRING"
+  },
+  {
+    "description": "Meta Description.",
+    "name": "meta_description",
+    "type": "STRING"
+  },
+  {
+    "description": "Type of the page according to akinon GLOBALS",
+    "name": "page_type",
+    "type": "STRING"
+  },
+  {
+    "description": "Brand of the product in product detail pages according to akinon GLOBALS",
+    "name": "product_brand",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of the product in product detail pages according to akinon GLOBALS",
+    "name": "product_name",
+    "type": "STRING"
+  },
+  {
+    "description": "The full price of the product",
+    "name": "product_full_price",
+    "type": "FLOAT"
+  },
+  {
+    "description": "The current sale price of the product",
+    "name": "product_sale_price",
+    "type": "FLOAT"
+  },
+  {
+    "description": "Count of total product sizes",
+    "name": "size_count",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Count of product sizes which are out of stock",
+    "name": "outofstock_size_count",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Stock Code of the Product (Analytics CD 14)",
+    "name": "product_stock_code",
+    "type": "STRING"
+  }
+]
